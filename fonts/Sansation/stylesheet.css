@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Sansation';
+	src: url('SansationBold.eot');
+	src: local('Sansation Bold'), local('SansationBold'),
+		url('SansationBold.eot?#iefix') format('embedded-opentype'),
+		url('SansationBold.woff') format('woff'),
+		url('SansationBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
