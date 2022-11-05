@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 1
+Host: ofset-ipp.ru
+Sitemap: http://www.ofset-ipp.ru/sitemap.xml
