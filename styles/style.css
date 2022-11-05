@@ -23,13 +23,6 @@ body{
     margin: 0 10px 0 0;
 }
 
-/* .contact__icon {
-    background-image: url(../images/explore.svg);
-    width: 20px;
-    height: 22px;
-    margin: 0 10px 0 0;
-} */
-
 .phone-white__icon {
     background-image: url(../images/phone_white.svg);
     width: 20px;
@@ -72,8 +65,21 @@ body{
     margin: 0 10px 0 0;
 }
 
+.chevron__icon {
+    background-image: url(../images/chevron_blue.svg);
+    width: 28px;
+    height: 22px;
+    margin: 0;
+}
+
 img {
     display: block;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -110,6 +116,11 @@ img {
 
 .head__menu-link:hover {
     background-color: rgba(49, 98, 255, 0.06);
+}
+
+.head__menu-link--active {
+    background-color: rgba(49, 98, 255, 0.06);
+    border-bottom: 2px solid #5981FF;
 }
 
 .head__logo {
@@ -522,6 +533,13 @@ img {
 }
 
 .footer__copyright {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+#year {
     color: #fff;
     font-size: 12px;
     margin: 0;
