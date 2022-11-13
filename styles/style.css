@@ -163,7 +163,7 @@ img {
 
 .banner {
     height: 450px;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,7 +270,7 @@ img {
 }
 
 .specialization__images1 {
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/booklets_1.jpg);
     background-size: cover;
     display: block;
     width: 100%;
@@ -281,7 +281,7 @@ img {
 }
 
 .specialization__images2 {
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/diaries_1.jpg);
     background-size: cover;
     display: block;
     width: 100%;
@@ -291,7 +291,7 @@ img {
 }
 
 .specialization__images3 {
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/calendars_1.jpg);
     background-size: cover;
     display: block;
     width: 100%;
@@ -301,7 +301,7 @@ img {
 }
 
 .specialization__images4 {
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/custom_edition_1.jpg);
     background-size: cover;
     display: block;
     width: 100%;
@@ -312,7 +312,7 @@ img {
 }
 
 .specialization__images5 {
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/scientific_and_non-fiction_lit_4.jpg);
     background-size: cover;
     display: block;
     width: 100%;
@@ -322,7 +322,7 @@ img {
 }
 
 .specialization__images6 {
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/books_1.jpg);
     background-size: cover;
     display: block;
     width: 100%;

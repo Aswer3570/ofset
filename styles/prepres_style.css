@@ -1,5 +1,13 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
 .main {
     font-family: 'Roboto';
+    height: 100%;
 }
 
 .prepres__container {
@@ -8,7 +16,7 @@
 }
 
 .prepres__menu {
-    margin: 30px 0 0 0;
+    margin: 30px 0 30px 0;
     display: flex;
     align-items: center;
 }
