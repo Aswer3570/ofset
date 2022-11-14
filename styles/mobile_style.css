@@ -1,4 +1,8 @@
 @media screen and (max-width: 880px) {
+    .head {
+        margin: 0 0 0 20px;
+    }
+    
     .head__menu {
         display: none;
     }
@@ -42,6 +46,10 @@
         overflow: auto;
     }
 
+    .specialization__images-container {
+        margin: 20px 20px 0 20px;
+    }
+
     .specialization__title {
         font-size: 24px;
         margin: 35px 20px 0 20px;
@@ -53,8 +61,25 @@
         margin: 15px 20px 0 20px;
     }
 
+    .specialization__images1, .specialization__images2, .specialization__images3, .specialization__images4, .specialization__images5, .specialization__images6 {
+        border-radius: 3px;
+    }
+
+    .specialization__images3 {
+        padding-bottom: 104%;
+    }
+
+    .specialization__images6 {
+        padding-bottom: 154%;
+    }
+
     .products__container {
         margin: 60px 0 0 0;
+        padding: 0 0 35px 0;
+    }
+
+    .products__wrapper {
+        padding: 50px 0 0 0;
     }
 
     .products__content {
@@ -100,11 +125,11 @@
     }
 
     .order__container {
-        margin: 35px 20px 60px 20px;
+        margin: 35px 20px 35px 20px;
     }
 
     .order__wrapper {
-        padding: 50px 20px 50px 20px;
+        padding: 40px 20px 40px 20px;
         background-size: cover;
     }
 
@@ -129,6 +154,10 @@
 
     .order__link:first-child {
         margin: 0 0 15px 0;
+    }
+
+    .phone__icon, .email__icon {
+        margin: 0 15px 0 0;
     }
 
     .footer__wrapper {
