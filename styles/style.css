@@ -249,6 +249,7 @@ img {
     display: flex;
     max-width: 1200px;
     margin: 20px 0 0 0;
+    min-width: 600px;
 }
 
 .specialization__images-container--small:first-child {
@@ -538,6 +539,10 @@ img {
     font-size: 12px;
     margin: 0;
     font-family: 'Roboto';
+}
+
+.footer__copyright--none {
+    display: none;
 }
 
 #year {

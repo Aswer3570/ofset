@@ -3,9 +3,11 @@
 <head>
     <title>Издательское полиграфическое предприятие Офсет</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/mobile_style.css">
     <meta property="og:site_name" content="Издательское полиграфическое предприятие Офсет">
     <meta property="og:title" content="Издательское полиграфическое предприятие Офсет">
     <meta name="description" content="Издательское полиграфическое предприятие">
@@ -82,58 +84,60 @@
                     Издательство выполнит заказ любой степени сложности и по приемлемым для наших партнеров ценам
                 </p>
 
-                <div class="specialization__images-container">
-                    <div class="specialization__images-container--small">
-                        <div class="specialization__images1 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/booklets_1.webp">
-                                <source srcset="./images/booklets_1.jpg">
-                                <img src="./images/booklets_1.jpg" alt="Буклеты">
-                            </picture>
+                <div class="specialization__images--mobile">
+                    <div class="specialization__images-container">
+                        <div class="specialization__images-container--small">
+                            <div class="specialization__images1 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/booklets_1.webp">
+                                    <source srcset="./images/booklets_1.jpg">
+                                    <img src="./images/booklets_1.jpg" alt="Буклеты">
+                                </picture>
+                            </div>
+                            <div class="specialization__images2 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/diaries_1.webp">
+                                    <source srcset="./images/diaries_1.jpg">
+                                    <img src="./images/diaries_1.jpg" alt="Дневники">
+                                </picture>
+                            </div>
                         </div>
-                        <div class="specialization__images2 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/diaries_1.webp">
-                                <source srcset="./images/diaries_1.jpg">
-                                <img src="./images/diaries_1.jpg" alt="Дневники">
-                            </picture>
-                        </div>
-                    </div>
                     
-                    <div class="specialization__images-container--big">
-                        <div class="specialization__images3 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/calendars_1.webp">
-                                <source srcset="./images/calendars_1.jpg">
-                                <img src="./images/calendars_1.jpg" alt="Календари">
-                            </picture>
+                        <div class="specialization__images-container--big">
+                            <div class="specialization__images3 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/calendars_1.webp">
+                                    <source srcset="./images/calendars_1.jpg">
+                                    <img src="./images/calendars_1.jpg" alt="Календари">
+                                </picture>
+                            </div>
                         </div>
-                    </div>
             
-                    <div class="specialization__images-container--small">
-                        <div class="specialization__images4 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/custom_edition_1.webp">
-                                <source srcset="./images/custom_edition_1.jpg">
-                                <img src="./images/custom_edition_1.jpg" alt="Нестандартные издания">
-                            </picture>
+                        <div class="specialization__images-container--small">
+                            <div class="specialization__images4 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/custom_edition_1.webp">
+                                    <source srcset="./images/custom_edition_1.jpg">
+                                    <img src="./images/custom_edition_1.jpg" alt="Нестандартные издания">
+                                </picture>
+                            </div>
+                            <div class="specialization__images5 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/scientific_and_non-fiction_lit_4.webp">
+                                    <source srcset="./images/scientific_and_non-fiction_lit_4.jpg">
+                                    <img src="./images/scientific_and_non-fiction_lit_4.jpg" alt="Научная и нехудожественная литература">
+                                </picture>
+                            </div>
                         </div>
-                        <div class="specialization__images5 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/scientific_and_non-fiction_lit_4.webp">
-                                <source srcset="./images/scientific_and_non-fiction_lit_4.jpg">
-                                <img src="./images/scientific_and_non-fiction_lit_4.jpg" alt="Научная и нехудожественная литература">
-                            </picture>
-                        </div>
-                    </div>
 
-                    <div class="specialization__images-container--medium">
-                        <div class="specialization__images6 icon">
-                            <picture class="img--hidden">
-                                <source type="image/webp" srcset="./images/webp/books_1.webp">
-                                <source srcset="./images/books_1.jpg">
-                                <img src="./images/books_1.jpg" alt="Книги">
-                            </picture>
+                        <div class="specialization__images-container--medium">
+                            <div class="specialization__images6 icon">
+                                <picture class="img--hidden">
+                                    <source type="image/webp" srcset="./images/webp/books_1.webp">
+                                    <source srcset="./images/books_1.jpg">
+                                    <img src="./images/books_1.jpg" alt="Книги">
+                                </picture>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -318,8 +322,11 @@
                 </p>
             </div>
 
-            <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af152d078fa18054d26214224ef2552057f557832418f04734e15ac79ec9f9971&amp;source=constructor" frameborder="0"></iframe> -->
             <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c9c2d47d4fb382bea44f6df7ded1c27920898121c711063253f1e928db0d3c4&amp;source=constructor" frameborder="0"></iframe>
+       
+            <p class="footer__copyright footer__copyright--none">
+                © <span id="year"></span> Типография «Офсет» / Design by <a href="//aswer3570.t.me" target="_blank" rel="noopener noreferrer" class="footer__copyright-link">Reguzov</a>
+            </p>
         </div>
     </footer>
 
