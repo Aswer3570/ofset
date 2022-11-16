@@ -137,6 +137,10 @@ img {
     justify-content: center;
 }
 
+.logo {
+    width: 120px;
+}
+
 .head__contact {
     display: flex;
     flex-basis: 30%;
