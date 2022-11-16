@@ -23,6 +23,13 @@ body{
     margin: 0 10px 0 0;
 }
 
+.prepress__icon--white {
+    background-image: url(../images/live_help_white.svg);
+    width: 20px;
+    height: 22px;
+    margin: 0 10px 0 0;
+}
+
 .phone-white__icon {
     background-image: url(../images/phone_white.svg);
     width: 20px;
@@ -494,6 +501,10 @@ img {
     font-size: 14px;
     margin: 0 0 12px 0;
     align-items: center;
+}
+
+.prepress__mobile {
+    display: none;
 }
 
 .footer__contact-block:last-child {

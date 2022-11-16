@@ -1,10 +1,14 @@
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 850px) {
     .head {
         margin: 0 0 0 20px;
     }
     
     .head__menu {
         display: none;
+    }
+
+    .head__logo {
+        flex-basis: auto;
     }
 
     .head__contact {
@@ -47,7 +51,15 @@
     }
 
     .specialization__images-container {
-        margin: 20px 20px 0 20px;
+        margin: 20px 0 0 0;
+    }
+
+    .specialization__images-container--small:first-child {
+        margin: 0 20px 0 20px;
+    }
+
+    .specialization__images-container--medium {
+        margin: 0 20px 0 0;
     }
 
     .specialization__title {
@@ -133,6 +145,10 @@
         background-size: cover;
     }
 
+    .order__content {
+        width: 100%;
+    }
+
     .order__title {
         font-size: 28px;
     }
@@ -172,6 +188,10 @@
 
     .footer__contact-wrapper {
         margin: 25px 0 25px 0;
+    }
+    
+    .prepress__mobile {
+        display: flex;
     }
 
     .arrow__icon {
