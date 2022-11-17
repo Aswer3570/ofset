@@ -11,6 +11,10 @@
         flex-basis: auto;
     }
 
+    .logo {
+        width: 140px;
+    }
+
     .head__contact {
         flex-basis: auto;
     }
@@ -210,5 +214,11 @@
     .footer__copyright--none {
         display: block;
         margin: 15px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo {
+        width: 120px;
     }
 }
